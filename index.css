@@ -1,0 +1,43 @@
+body, header, canvas, h1, menu{
+  margin: 0;
+  padding: 0;
+}
+
+header{
+  padding-top: 10px;
+  text-align: center;
+}
+
+h1 {
+  text-align: center;
+  font-family: "Helvetica","Arial", sans-serif;
+  font-weight: bold;
+  color: darkcyan;
+  text-decoration: overline underline;
+}
+
+.menu{
+  display: inline-block;
+  font-size: 24px;
+  text-decoration: none;
+  cursor: pointer;
+  color: darkred;
+  margin: 0 10px;
+}
+
+.menu.active{
+  text-decoration: underline;
+}
+
+#content{
+  padding: 8px 0;
+  grid-area: c;
+  position: relative;
+}
+
+canvas{
+  display: block;
+  border: 3px dashed cyan;
+  margin: auto;
+  cursor: crosshair;
+}
