@@ -3,6 +3,10 @@ body, header, canvas, h1, menu{
   padding: 0;
 }
 
+body{
+  background-color: darkslategray;
+}
+
 header{
   padding-top: 10px;
   text-align: center;
@@ -12,7 +16,7 @@ h1 {
   text-align: center;
   font-family: "Helvetica","Arial", sans-serif;
   font-weight: bold;
-  color: darkcyan;
+  color: cyan;
   text-decoration: overline underline;
 }
 
@@ -21,8 +25,8 @@ h1 {
   font-size: 24px;
   text-decoration: none;
   cursor: pointer;
-  color: darkred;
-  margin: 0 10px;
+  color: fuchsia;
+  margin: 5px 10px;
 }
 
 .menu.active{
